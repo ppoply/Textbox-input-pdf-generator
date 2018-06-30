@@ -7,7 +7,7 @@ if(isset($_POST['but'])){
 }
 
 
-require('fpdf181/fpdf.php');
+require('fpdf ref/fpdf.php');
 
 class PDF extends FPDF
 {
