@@ -1,0 +1,55 @@
+.btn-sample { 
+  color: #1C0505; 
+  background-color: #1DC278; 
+  border-color: #0D0101; 
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+} 
+#hero{
+  text-align: center;
+}
+
+body{
+  background: #b2d4ff;
+}
+ 
+.btn-sample:hover, 
+.btn-sample:focus, 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  color: #1C0505; 
+  background-color: #748BE8; 
+  border-color: #0D0101; 
+} 
+ 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  background-image: none; 
+} 
+ 
+.btn-sample.disabled, 
+.btn-sample[disabled], 
+fieldset[disabled] .btn-sample, 
+.btn-sample.disabled:hover, 
+.btn-sample[disabled]:hover, 
+fieldset[disabled] .btn-sample:hover, 
+.btn-sample.disabled:focus, 
+.btn-sample[disabled]:focus, 
+fieldset[disabled] .btn-sample:focus, 
+.btn-sample.disabled:active, 
+.btn-sample[disabled]:active, 
+fieldset[disabled] .btn-sample:active, 
+.btn-sample.disabled.active, 
+.btn-sample[disabled].active, 
+fieldset[disabled] .btn-sample.active { 
+  background-color: #1DC278; 
+  border-color: #0D0101; 
+} 
+ 
+.btn-sample .badge { 
+  color: #1DC278; 
+  background-color: #1C0505; 
+}
