@@ -53,3 +53,7 @@ fieldset[disabled] .btn-sample.active {
   color: #1DC278; 
   background-color: #1C0505; 
 }
+.mt-5{
+  text-align: center;
+  margin-top: 40px;
+}
