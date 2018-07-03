@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- File for taking user input data through textbox -->
 <html lang="en">
 <head>
   <title>PDF generator</title>

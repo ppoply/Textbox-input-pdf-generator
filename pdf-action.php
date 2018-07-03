@@ -1,14 +1,16 @@
 <?php 
+/* File for converting the user input data into pdf */
 
-
+// collection of Textbox input data
 if(isset($_POST['but'])){
 	$text = $_POST["text_area"];
 	
 }
 
 
-require('fpdf ref/fpdf.php');
+require('fpdf ref/fpdf.php');  
 
+//Setting up Headers and Footers
 class PDF extends FPDF
 {
 
@@ -38,6 +40,7 @@ function Footer()
 }
 }
 
+//Setting up the output PDF 
 $pdf = new PDF();
 $pdf->AliasNbPages();
 $pdf->AddPage();
